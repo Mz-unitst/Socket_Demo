@@ -1,13 +1,9 @@
 #include <stdio.h>
-#include <winsock2.h>
+
+
+#include <sys/socket.h>
 int main() {
-//    printf("Hello, World!\n");
-#ifdef WIN32
-// TODO: WINDOWS平台的特定代码
-    printf("Hello, Win!\n");
-#else
-    // TODO: LINUX平台的特定代码
-    printf("Hello, Linux!\n");
-#endif
+
+    printf("Hello, Linuxxx!\n");
     return 0;
 }
